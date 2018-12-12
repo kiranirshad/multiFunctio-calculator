@@ -1,0 +1,41 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+    background: #FD7272;
+}
+
+
+.container{
+    text-align: center;
+ width: 500px;
+    height: 100%;
+}
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    margin: 1em 0;
+}
+.add{
+    color: #FD7272;
+    font-size: 1.5em;
+}
+input{
+    margin-right: 10px;
+}
+.alert-success, .button-div{
+    margin-top: 2em;
+}
+
+.alert-danger{
+    height: 200px;
+    margin-top: 25px;
+}
+.btn-info{
+    margin-right: 5px;
+}
+.clear-btn{
+    font-size: 16px;
+    padding:8px  100px;
+    margin-top: 18px;
+}
