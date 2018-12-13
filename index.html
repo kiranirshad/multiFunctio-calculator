@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mutifunction Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+      integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Multi Function Calculator</h1>
+      <div class="form-group d-flex">
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          placeholder="type a number"
+        />
+        <button type="button" class="btn btn-light" onclick="insert()">
+          <i class="fas fa-plus add"></i>
+        </button>
+      </div>
+      <div class="alert alert-success" id="output" role="alert">
+           Result = --
+          </div>
+          <div class="alert alert-danger" role="alert" id="insertVal">
+              </div>
+              <div class="button-div">
+                    <button type="button" class="btn btn-info" onclick="sum()">Sum</button>
+                    <button type="button" class="btn btn-info" onclick="average()">Average</button>
+                    <button type="button" class="btn btn-info" onclick="product()">Product</button>
+              </div>
+              <button type="button" class="btn btn-light btn-lg clear-btn" onclick="remove()">Clear All</button>
+    </div>
+  </body>
+</html>
