@@ -49,12 +49,12 @@ function calcSum() {
      }
      function sum() {
   let answer = calcSum();
-    document.querySelector("#output").innerHTML = `result:sum = ${answer}`;
+    document.querySelector("#output").innerHTML = `Result:Sum = ${answer}`;
      }
      function average(){
          let avgtAns = calcSum();
          avgtAns = avgtAns/ numbers.length;
-         document.querySelector("#output").innerHTML = `Result:Sum ${avgtAns}`;
+         document.querySelector("#output").innerHTML = `Result:Average =  ${avgtAns}`;
 
      }
      function product(){
@@ -62,7 +62,7 @@ function calcSum() {
          for(let i=0; i <numbers.length; i++){
              proAns = proAns*numbers[i];
          }
-         document.querySelector("#output").innerHTML= `Result:Product${proAns}`
+         document.querySelector("#output").innerHTML= `Result:Product= ${proAns}`
      }
      function remove(){
          location.reload();
